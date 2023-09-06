@@ -40,9 +40,24 @@ Supersonic Themes </Link></h3>
             <li>
               <Link to="/Contact">Contact <span></span></Link>
             </li>
+            <li>
+            
+            
+        
+        <div className='center lg:absolute right-8 top-12 lg:hidden'>
+        <div className='outer Button'>
+        <div className="mt-4 lg:mt-0">
+          <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 ">LET'S TALK</button>
+        </div>
+        <span></span>
+        <span></span>
+
+        </div>
+        </div>
+            </li>
           </ul>
         
-        <div className='center lg:absolute right-8 top-12'>
+        <div className='center lg:absolute right-8 top-12 '>
         <div className='outer Button'>
         <div className="mt-4 lg:mt-0">
           <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 ">LET'S TALK</button>
