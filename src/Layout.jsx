@@ -22,7 +22,7 @@ const Layout = () => {
         >
           {menuOpen ? "×" : "☰"}
         </button>
-        <nav className={`mt-4 lg:mt-0 lg:ml-8 ${menuOpen ? "" : "hidden"} lg:flex lg:space-x-8 lg:justify-center`}>
+        <nav className={`mt-4 lg:mt-0 ${menuOpen ? "" : "hidden"} lg:flex lg:space-x-8 lg:justify-center`}>
           <ul className="lg:flex lg:space-x-10 text-3xl">
             <li>
               <Link to="/">Home <span></span></Link>
@@ -39,9 +39,9 @@ const Layout = () => {
           </ul>
         </nav>
         <div className='mt-4 lg:mt-0 flex lg:absolute right-0 lg:right-8'>
-          <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 ">
+          <div className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3">
             <Link to="/Contact">LET'S TALK</Link>
-          </button>
+          </div>
         </div>
       </div>
       <Outlet />
