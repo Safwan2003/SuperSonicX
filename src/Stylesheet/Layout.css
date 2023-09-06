@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Share+Tech+Mono&display=swap');
+
+
+.body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Satisfy', cursive;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+.header-links{
+    
+    font-family: 'Satisfy', cursive;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+
+.outer{
+    background: #111;
+}
+.Button{
+ height: 50px;
+ width: 160px;
+ border-radius: 50px;
+
+}
+
+.outer Button, .outer span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer Button{
+    background: #111;
+    color: #f2f2f2;
+    outline: none;
+    border: none;
+    z-index: 9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.Button Button{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.outer span{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+
+}
+.Button span{
+    border-radius: 50px;
+}
+
+.outer:hover span:nth-child(1){
+    filter: blur(7px);
+}
+.outer:hover span:nth-child(2){
+    filter: blur(14px);
+}
+
+.outer{
+    animation: rotate 1.5s linear infinite;
+    background:linear-gradient(#14ffe9,#14ffeb39,#ff00e0); 
+}
+
+
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+
+
+

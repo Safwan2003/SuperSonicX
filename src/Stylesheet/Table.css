@@ -1,0 +1,216 @@
+
+.main-heading{
+    font-family: 'Cinzel', serif;
+   
+}
+.slider-txt{
+    text-align: left;
+    padding: 250px 4rem ;
+    font-size: large;
+    padding-inline : 20rem;
+ 
+}
+.main-button{
+    padding: 1rem;
+    border: 1rem;
+    background-color: black;
+    color: azure;
+    border-color: azure;
+    padding-inline: 3rem;
+    font-size: large;
+    font-family: 'Cinzel', serif;
+    margin:3rem;
+
+}
+.main-button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.main-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #CCCCCC;
+    color: black;
+    padding: 5rem;
+    font-size:x-large;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 25rem;
+    margin-bottom: 10rem;
+    padding-top: 5rem;
+    
+}
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cinzel', serif;
+
+}
+
+.card{
+    padding: .5rem;
+border: .25rem solid;
+border-color: #CCCCCC;
+border-radius: 1rem;
+font-family: 'Cinzel', serif;
+margin-top: 10rem;
+margin-bottom: 10rem;
+background-color: #CCCCCC;
+color: black;
+
+}
+
+.card-data{
+    padding: 1rem;
+    font-family: 'Cinzel', serif;
+
+}
+.card-txt{
+    padding: 1rem;
+    font-family: 'Cinzel', serif;
+}
+
+.digital{
+  margin-bottom: 3rem;
+}
+
+
+.tracking-in-expand {
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+
+
+ 
+  
+  .btn, .btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+
+
+  html {
+    font-size: 62.5%;
+  }
+
+.card-tilt {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 250px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: #1d1d1d;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  text-align: justify;
+  z-index: 1;
+}
+.card-image {
+  grid-area: image;
+  z-index: 1;
+}
+.card-text {
+  grid-area: text;
+  z-index: 1;
+}
+
+.card-image {
+  grid-area: image;
+  background: linear-gradient(#fff0 0%,#fff0 70%,#1d1d1d 100%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  z-index: 1;
+}
+
+.rgb::after{
+
+  content: '';
+  background: linear-gradient(45deg,
+  #ff0000 0%,
+  #ff9a00 10%,
+  #d0de21 20%,
+  #4fdc4a 30%,
+  #3fdad8 40%,
+  #2fc9e2 50%,
+  #1c7fee 60%,
+  #5f15f2 70%,
+  #ba0cf8 80%,
+  #fb07d9 90%,
+  #ff0000 100% 
+  )
+  repeat 0% 0% / 300%  100%;
+  position: absolute;
+  inset: -3px;
+    z-index: -1;
+    border-radius: 16px;
+    filter: blur(8px);
+    transform: translateZ(-1);
+  animation: rgb 6s linear infinite;
+
+}
+@keyframes rgb{
+  0%{
+   
+    background-position: 0% 50%;
+  }
+  50%{
+    
+    background-position: 100% 50%;
+   
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.js-tilt-glare{
+  border-radius: 18px;
+  background-color: #1d1d1d;
+  z-index: 0; 
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size:13px;
+}
+.card-text p {
+  color: grey;
+  font-size: 14px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+
+.card-tilt:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-tilt {
+
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+  
+ 

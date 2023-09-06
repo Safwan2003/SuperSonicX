@@ -1,0 +1,26 @@
+.Our-service{
+    font-family: 'Satisfy', cursive;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+
+.service-heading{
+  position: relative;
+  cursor: pointer;
+}
+.service-heading::after{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  background-color: #00ec00;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+.service-heading:hover::after{
+  transform: scaleX(1);
+} 

@@ -1,0 +1,41 @@
+
+
+.bg-slow-slider{
+  height: 10vh;
+  width: 100vw;
+margin-top: 2rem;
+  background-color: #252626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+marquee{
+
+  width: full;
+  padding: 20px 0px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+marquee:before, marquee:after {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  content: "";
+
+}
+
+marquee:before {
+  left: 0;
+  width: 20px;
+}
+marquee:after {
+  right: 0;
+  width: 20px;
+}
