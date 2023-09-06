@@ -45,7 +45,7 @@ Supersonic Themes </Link></h3>
         <div className='center lg:absolute right-8 top-12'>
         <div className='outer Button'>
         <div className="mt-4 lg:mt-0">
-          <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 ">LET'S TALK</button>
+          <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 "><Link to="/Contact">LET'S TALK</Link></button>
         </div>
         <span></span>
         <span></span>
