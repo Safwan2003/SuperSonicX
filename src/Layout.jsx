@@ -29,7 +29,7 @@ Supersonic Themes </Link></h3>
         <nav className={`mt-4 lg:mt-0 lg:ml-8 ${menuOpen ? "" : "hidden"} lg:flex lg:space-x-8 `}>
           <ul className="lg:flex lg:space-x-10 text-3xl lg:justify-center">
             <li>
-              <Link  to="/">Home<span></span></Link>
+              <Link  to="/">Home <span></span></Link>
             </li>
             <li>
               <Link to="/about">About<span></span></Link>
@@ -38,14 +38,14 @@ Supersonic Themes </Link></h3>
               <Link to="/services">Services<span></span></Link>
             </li>
             <li>
-              <Link to="/Contact">Contact<span></span></Link>
+              <Link to="/Contact">Contact <span></span></Link>
             </li>
           </ul>
         
         <div className='center lg:absolute right-8 top-12'>
         <div className='outer Button'>
         <div className="mt-4 lg:mt-0">
-          <Link to="/Contact"> <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 "  >LET'S TALK</button></Link>
+          <button className="header-btn text-2xl bg-blue-200 p-1 rounded-lg px-3 ">LET'S TALK</button>
         </div>
         <span></span>
         <span></span>
