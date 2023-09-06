@@ -54,7 +54,7 @@ const Table = () => {
           <div  className="card-tilt">
             <div  className="card-image"><img src={pic3} /></div>
             <div  className="card-text">
-              <span data-aos="fade-left" className="date">4 days ago</span>
+              <span  className="date">4 days ago</span>
               <h2>Post One</h2>
               <p className='pt-5'>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
             </div>
