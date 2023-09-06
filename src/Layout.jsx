@@ -29,16 +29,16 @@ Supersonic Themes </Link></h3>
         <nav className={`mt-4 lg:mt-0 lg:ml-8 ${menuOpen ? "" : "hidden"} lg:flex lg:space-x-8 `}>
           <ul className="lg:flex lg:space-x-10 text-3xl lg:justify-center">
             <li>
-              <Link  to="/">Home</Link>
+              <Link  to="/">Home<span></span></Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">About<span></span></Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services">Services<span></span></Link>
             </li>
             <li>
-              <Link to="/Contact">Contact</Link>
+              <Link to="/Contact">Contact<span></span></Link>
             </li>
           </ul>
         
